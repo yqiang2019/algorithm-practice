@@ -1,6 +1,7 @@
 class LoopQueue{
-    constructor() {
-        this.data = [];
+    constructor(k) {
+        this.data = new Array(k);
+        this.k = k;
         this.front = 0;
         this.tail = 0;
         this.size = 0;
